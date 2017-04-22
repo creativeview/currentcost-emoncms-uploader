@@ -1,0 +1,24 @@
+{
+  "name": "currentcost-emoncms-uploader",
+  "version": "1.0.0",
+  "description": "A Node.js script to process data from a CurrentCost energy meter and import it to emonCMS https://emoncms.org/",
+  "author": "David Balharrie",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/creativeview/currentcost-emoncms-uploader"
+  },
+  "bugs": {
+  "url": "https://github.com/creativeview/currentcost-emoncms-uploader/issues"
+  },
+  "scripts": {
+    "start": "node cc2emon-server.js"
+  },
+  "dependencies": {
+    "serialport": "~4.0.7",
+    "libxmljs": "~0.18.4",
+    "request": "~2.79.0",
+    "winston": "~2.3.1",
+    "winston-daily-rotate-file": "1.4.4"
+  }
+}

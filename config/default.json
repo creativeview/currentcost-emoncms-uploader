@@ -1,0 +1,7 @@
+{
+    "uploadURL": "http://emonserver/input/post.json",
+    "uploadNode": "1",
+    "uploadAPIKey": "emonapikey",
+    "comPort":"/dev/ttyUSB0",
+    "logLevel":"info"
+}
