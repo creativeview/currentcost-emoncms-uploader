@@ -27,8 +27,6 @@ var buffer = "";
 
 // get current cost serial port
 var serialdevice = config.comPort;
-// COM4 
-// /dev/ttyUSB0
 
 // current cost meter serial settings are 57600 baud, 
 // 8 data bits, no parity, 1 stop bit
@@ -72,7 +70,7 @@ sp.on("data", function(data) {
         request(options, function (error, response, body) {
           if (error) {
             logger.error(error)
-            //throw new Error(error);
+            console.log('Error: ', error);
           }
             
         });
@@ -83,3 +81,9 @@ sp.on("data", function(data) {
     }
   }
 });
+
+// open errors will be emitted as an error event 
+sp.on('error', function(err) {
+  logger.error('Error: ', err.message)
+  console.log('Error: ', err.message);
+})
