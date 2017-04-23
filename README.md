@@ -17,7 +17,7 @@ A Node.js script to process data from a [Current Cost](http://www.currentcost.co
 
 - Download from Github ```git clone https://github.com/creativeview/currentcost-emoncms-uploader.git```
 - ```cd currentcost-emoncms-uploader```
-- run ```npm install```  
+- To install dependencies run ```npm install```  
 Installation of dependencies on ARM systems takes a long time. On a Raspberry Pi Zero this can take over 30mins.
 
 ## Configuration
