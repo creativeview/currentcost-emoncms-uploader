@@ -58,8 +58,7 @@ $ npm install pm2@latest -g
 $ pm2 start cc2emon-server.js
 ```
 
-- Setup startup script
-To generate an active startup script run this command: 
+- Finally setup a startup script to generate an active startup script using this command: 
 ```
 $ pm2 startup
 ```
