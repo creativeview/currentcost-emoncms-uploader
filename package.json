@@ -9,16 +9,16 @@
     "url": "https://github.com/creativeview/currentcost-emoncms-uploader"
   },
   "bugs": {
-  "url": "https://github.com/creativeview/currentcost-emoncms-uploader/issues"
+    "url": "https://github.com/creativeview/currentcost-emoncms-uploader/issues"
   },
   "scripts": {
     "start": "node cc2emon-server.js"
   },
   "dependencies": {
-    "serialport": "~4.0.7",
-    "libxmljs": "~0.18.4",
-    "request": "~2.79.0",
-    "winston": "~2.3.1",
-    "winston-daily-rotate-file": "1.4.4"
+    "libxmljs": "^0.18.4",
+    "request": "^2.85.0",
+    "serialport": "^6.1.1",
+    "winston": "^2.4.1",
+    "winston-daily-rotate-file": "^3.0.1"
   }
 }
