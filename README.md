@@ -4,7 +4,7 @@ A Node.js script to process data from a [Current Cost](http://www.currentcost.co
 
 
 ## Requirements 
-- [Node.js](https://nodejs.org/en/) => v6.2.2
+- [Node.js](https://nodejs.org/en/) => v8.10.0
 
 ## Dependencies
  - Node.js package - [serialport](https://www.npmjs.com/package/serialport)
