@@ -30,7 +30,7 @@ var serialdevice = config.comPort;
 
 // current cost meter serial settings are 57600 baud, 
 // 8 data bits, no parity, 1 stop bit
-var sp = new SerialPort(serialdevice, {baudrate: 57600 });
+var sp = new SerialPort(serialdevice, {baudRate: 57600 });
 
 sp.on("open", function() {
   logger.info("Serial port opened.");
